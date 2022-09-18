@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.first-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 40%;
+}
+
+.first-section .first-text {
+  font-weight: 400;
+}
+
+.first-section .name-text {
+  color: #ec4c7a;
+  font-size: 30px;
+}
+
+.first-section p {
+  font-size: 15px;
+}
+
+.button {
+  padding: 10px 30px;
+  background-image: linear-gradient(45deg, #ec4c7a, tomato);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.info-img {
+  width: 100%;
+}
+
+/* Second Section */
+.second-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/biography-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-section .second-div {
+  padding-left: 100px;
+}
+
+.second-section h1 {
+  font-weight: 600;
+}
+
+.second-section p {
+  font-size: 15px;
+}
+
+/* Work Section */
+.work-section {
+  background-image: url(images/latest-work-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.work-section h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.work-box {
+  margin: 50px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-img {
+  width: 30%;
+}
+
+/* Client section */
+.client-work h1 {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.client-work {
+  background-image: url(images/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.client-work p {
+  text-align: center;
+}
+
+.client-work .client-info {
+  margin-top: 50px;
+}
+
+.client-work .client-name {
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.client-work .client-desc {
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+}
+
+.client-work .line {
+  margin-top: 50px;
+  color: black;
+  font-weight: 500;
+}
+
+.email-box {
+  color: white;
+  padding: 40px 0;
+  background-image: linear-gradient(45deg, #ec4c7a, tomato);
+  width: 60%;
+  margin: 50px auto;
+  border-radius: 7px;
+  margin-bottom: 100px;
+}
+
+.email-box .box-title {
+  font-size: 12px;
+}
+
+.email-box .box-email {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Footer */
+footer p {
+  font-size: 13px;
+  font-weight: 500;
+  color: gray;
+  text-align: center;
+  padding: 20px 0;
+}
